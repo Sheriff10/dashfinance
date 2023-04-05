@@ -3,16 +3,21 @@ header {
    padding: 20px 1px;
    color: #fff;
 }
-a{
+a {
    text-decoration: none;
    color: white;
    font-weight: bold;
 }
-a:hover{
+a:hover {
    color: lightgreen;
 }
-header .logo img{
-   width: 100px;
+header .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header .logo img {
+   width: 40px;
    margin-top: -10px;
 }
 header ul {
@@ -22,6 +27,7 @@ header ul {
    margin: 0;
    align-items: center;
    justify-content: space-between;
+   /* background: red; */
 }
 header ul li {
    list-style-type: none;
@@ -78,6 +84,7 @@ header .menu-btn .menu-btn-burger.open::after {
 .intro .c {
    min-height: 80vh;
    align-items: center;
+   display: flex;
 }
 .intro h1,
 .about h1 {
@@ -118,7 +125,7 @@ header .menu-btn .menu-btn-burger.open::after {
    text-align: right;
 }
 
-.w2{
+.w2 {
    background: linear-gradient(80deg, #14f195, black 60%);
 }
 .partner {
@@ -159,11 +166,33 @@ header .menu-btn .menu-btn-burger.open::after {
    align-items: center;
    justify-content: center;
 }
-.partner .p-card-body{
+.partner .p-card-body {
    color: #fff;
 }
-.partner .p-card-body h1{
+.partner .p-card-body h1 {
    font-size: 40px;
+}
+.roadmap .p-card-head div.r {
+   background: none;
+   border-radius: 10px;
+   border: none;
+   border-bottom: 3px solid #30f630a0;
+   color: #fff;
+}
+.roadmap ul {
+   /* margin: 0; */
+   padding: 0;
+}
+.roadmap ul li {
+   list-style-type: none;
+   padding: 4px 1px;
+   font-weight: bold;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+.roadmap .p-card-body {
+   text-align: left;
+   padding: 10px;
 }
 @media (max-width: 995px) {
    header .links {
@@ -240,18 +269,38 @@ header .menu-btn .menu-btn-burger.open::after {
       position: relative;
       transform: translateY(0px);
    }
+
+   .roadmap .p-wrapper {
+      margin: 10px 1px;
+   }
+   .roadmap .rr:nth-child(2) .p-card-body ul li {
+      text-align: right;
+   }
+   .roadmap .rr:nth-child(2) .p-card-body ul li::after{
+      content: " --";
+   }
+   .roadmap .rr .p-card-body ul li::before{
+      content: "-- ";
+   }
+   .roadmap .rr:nth-child(2) .p-card-head {
+      justify-content: end;
+
+   }
+   .roadmap .rr .p-card-head{
+      justify-content: start;
+   }
 }
 
-footer{
+footer {
    background: #161616;
    color: floralwhite;
    padding: 40px 1px;
 }
-footer .col:first-child span{
+footer .col:first-child span {
    margin-right: 20px;
    font-size: 18px;
 }
-footer .col:last-child{
+footer .col:last-child {
    color: #989797;
    text-align: right;
 }

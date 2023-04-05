@@ -31,10 +31,10 @@ export const Intro = () => {
                               <div className="btn-con">
                                  <div className="row justify-content-center">
                                     <div className="btn btn-success m-4 col-4">
-                                       Buy
+                                       BUY
                                     </div>
                                     <div className="btn btn-outline-success m-4 col-4">
-                                       Contract
+                                       CONTRACT
                                     </div>
                                  </div>
                               </div>
@@ -51,10 +51,10 @@ export const Intro = () => {
                               <div className="btn-con">
                                  <div className="row justify-content-center">
                                     <div className="btn btn-success m-4 col-4">
-                                       BORROW
+                                      LAUNCHPAD
                                     </div>
                                     <div className="btn btn-outline-success m-4 col-4">
-                                       LEND
+                                       DEX
                                     </div>
                                  </div>
                               </div>

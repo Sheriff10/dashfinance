@@ -14,27 +14,28 @@ export const Header = () => {
                <div className="col-lg-4 col-sm-12 col-md-12">
                   <div className="sm-nav">
                      <div className="logo">
-                        <img src="l3.png" alt="dashfinance" className="img-fluid" />
-                        {/* <h3>Logo</h3> */}
+                        <img src="l2.png" alt="dashfinance" className="img-fluid" />
+                        <span className="h4 p-2">DASHFINANCE</span>
                      </div>
                      <div className="menu-btn" onClick={toggleMenu}>
                         <div className="menu-btn-burger"></div>
                      </div>
                   </div>
                </div>
-               <div className="col-lg-4 col-sm-6">
+               <div className="col-lg-6 col-sm-6">
                   <div className="links">
                      <ul>
                         <li><a href="#" onClick={toggleMenu}>Home</a></li>
                         <li><a href="#abt" onClick={toggleMenu}>About</a></li>
                         <li><a href="#tk" onClick={toggleMenu}>Tokenomics</a></li>
+                        <li><a href="#roadmap" onClick={toggleMenu}>Roadmap</a></li>
                         <li><a href="#pt" onClick={toggleMenu}>Partnerships</a></li>
                      </ul>
                   </div>
                </div>
                <div className="col">
                   <div className="btn-con">
-                     <div className="btn btn-outline-success">Launch App</div>
+                     <a href="https://dashfinancedex.vercel.app/" target={"_blank"} className="btn btn-outline-success">Launch App</a>
                   </div>
                </div>
             </div>

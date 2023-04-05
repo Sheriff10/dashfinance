@@ -4,6 +4,7 @@ import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Intro } from "./components/intro";
 import { Partners } from "./components/partnership";
+import { Roadmap } from "./components/roadmap";
 import { Tokenomincs } from "./components/tokenomics";
 import "./css/global.css";
 function App() {
@@ -18,6 +19,7 @@ function App() {
          </div>
          <div className="w2">
             <Tokenomincs />
+            <Roadmap />
             <Partners />
          </div>
          <Footer />
