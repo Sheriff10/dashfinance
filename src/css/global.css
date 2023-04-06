@@ -278,7 +278,10 @@ header .menu-btn .menu-btn-burger.open::after {
    }
    .roadmap .rr:nth-child(2) .p-card-body ul li::after{
       content: " --";
+   }.roadmap .rr:nth-child(2) .p-card-body ul li::before{
+      content: " ";
    }
+
    .roadmap .rr .p-card-body ul li::before{
       content: "-- ";
    }
