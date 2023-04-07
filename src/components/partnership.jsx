@@ -7,7 +7,7 @@ export const Partners = () => {
     const imgArr = [
         imgFunc('cgc.png'),
         imgFunc('cmc.png'),
-        imgFunc('core.png'),
+        imgFunc('zz.png'),
         imgFunc('ang.svg')
     ]
   return (
