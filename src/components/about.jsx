@@ -44,10 +44,7 @@ export const About = () => {
                         <div className="container">
                            <div className="row btn-con">
                               <div className=" btn btn-success col-sm-8 col-md- col-lg-4 abt-btn">
-                                 Launch App
-                              </div>
-                              <div className=" btn btn-outline-success col-sm-8 col-md- col-lg-4 abt-btn">
-                                 Launch App
+                                 Whitepaper
                               </div>
                            </div>
                         </div>
