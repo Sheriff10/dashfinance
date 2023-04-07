@@ -9,31 +9,37 @@ export const About = () => {
                <div className="col-lg-6 col-sm-12 col-md-12">
                   <div className="about-text">
                      <div className="head">
-                        <h1>Lending and Borrowing Protocol</h1>
+                        <h1>Unlocking DeFi's Potential Together!</h1>
                      </div>
                      <div className="a-body">
                         <ul>
-                           <li>
-                              {" "}
-                              <i>
-                                 <FaCircle />
-                              </i>{" "}
-                              Collateralize GMX and GLP
-                           </li>
-                           <li>
-                              {" "}
-                              <i>
-                                 <FaCircle />
-                              </i>{" "}
-                              Collateralize GMX and GLP
-                           </li>
-                           <li>
-                              {" "}
-                              <i>
-                                 <FaCircle />
-                              </i>{" "}
-                              Collateralize GMX and GLP
-                           </li>
+                           <div className="col">
+                              <li>
+                                 {" "}
+                                 <i>
+                                    <FaCircle />
+                                 </i>{" "}
+                                 Trade
+                              </li>
+                           </div>
+                           <div className="col">
+                              <li>
+                                 {" "}
+                                 <i>
+                                    <FaCircle />
+                                 </i>{" "}
+                                 Earn
+                              </li>
+                           </div>
+                           <div className="col">
+                              <li>
+                                 {" "}
+                                 <i>
+                                    <FaCircle />
+                                 </i>{" "}
+                                 Explore
+                              </li>
+                           </div>
                         </ul>
                         <div className="container">
                            <div className="row btn-con">

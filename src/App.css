@@ -6,7 +6,19 @@
 .wrapper{
     background: #000000bc;
 }
+.btn{
+    color: #fff;
+    border: 1px solid rgb(8 101 111);
+
+}
 .btn-success{
-    background: #14f195;
-    color: #000;
+    background: rgb(8 101 111);
+    border: 1px solid rgb(8 101 111);
+}
+.btn-outline-success{
+    border: 1px solid rgb(8 101 111);
+}
+.btn-outline-success:hover, .btn-success:hover{
+    background: rgb(8 101 111);
+    border: 1px solid rgb(8 101 111);
 }

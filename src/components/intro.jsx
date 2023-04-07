@@ -22,11 +22,11 @@ export const Intro = () => {
                         <div className="intro-data">
                            <div className="intro-data-head">
                               <h1>
-                                 A revolution in <br /> Liquidity
+                                 A Revolution in <br /> DEFI.
                               </h1>{" "}
                               <br />
                               <small>
-                                 Building the best borrowing experience in DeFi
+                                 Building the best trading experience in DeFi.
                               </small>
                               <div className="btn-con">
                                  <div className="row justify-content-center">
@@ -44,14 +44,19 @@ export const Intro = () => {
                      <SwiperSlide>
                         <div className="intro-data">
                            <div className="intro-data-head">
-                              <h1>Audited and Fully Open-Source</h1> <br />
+                              <h1>
+                                 {" "}
+                                 The Future of Decentralized <br /> Trading.
+                              </h1>{" "}
+                              <br />
                               <small>
-                                 Building the best borrowing experience in DeFi
+                                 Trade, earn, launch projects, and explore NFTs
+                                 with the seamless DEX built on zkSync network.
                               </small>
                               <div className="btn-con">
                                  <div className="row justify-content-center">
                                     <div className="btn btn-success m-4 col-4">
-                                      LAUNCHPAD
+                                       LAUNCHPAD
                                     </div>
                                     <div className="btn btn-outline-success m-4 col-4">
                                        DEX

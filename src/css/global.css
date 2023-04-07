@@ -8,8 +8,9 @@ a {
    color: white;
    font-weight: bold;
 }
-a:hover {
-   color: lightgreen;
+a:hover {    
+   --tw-bg-opacity: 1;
+   color: rgb(8 101 111);
 }
 header .logo {
    display: flex;
@@ -115,18 +116,23 @@ header .menu-btn .menu-btn-burger.open::after {
    color: #fff;
    padding: 5px 1px;
 }
+.about .a-body ul{
+   display: flex;
+   padding: 10px 0px;
+}
 .about .abt-btn {
    margin: 10px 1px;
 }
 .about li i {
-   color: lightgreen;
+   --tw-bg-opacity: 1;
+   color: rgb(8 101 111);
 }
 .about .about-img {
    text-align: right;
 }
 
 .w2 {
-   background: linear-gradient(80deg, #14f195, black 60%);
+   background: linear-gradient(80deg, rgb(8 101 111), black 60%);
 }
 .partner {
    padding: 10px 20px;
@@ -157,7 +163,7 @@ header .menu-btn .menu-btn-burger.open::after {
 }
 .partner .p-card-head div {
    border: 2px solid #000;
-   background: #92ff9289;
+   background: rgb(8 101 111);
    font-size: 26px;
    border-radius: 50%;
    padding: 15px 20px;
@@ -176,7 +182,7 @@ header .menu-btn .menu-btn-burger.open::after {
    background: none;
    border-radius: 10px;
    border: none;
-   border-bottom: 3px solid #30f630a0;
+   border-bottom: 3px solid rgb(8 101 111);
    color: #fff;
 }
 .roadmap ul {
@@ -309,5 +315,5 @@ footer .col:last-child {
 }
 
 .swiper-pagination span {
-   background: lightgreen;
+   background: rgb(8 101 111);
 }
