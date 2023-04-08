@@ -20,7 +20,7 @@ function App() {
          <div className="w2">
             <Tokenomincs />
             <Roadmap />
-            <Partners />
+            {/* <Partners />  */}
          </div>
          <Footer />
       </div>

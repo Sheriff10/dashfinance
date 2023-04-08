@@ -182,7 +182,7 @@ header .menu-btn .menu-btn-burger.open::after {
    background: none;
    border-radius: 10px;
    border: none;
-   border-bottom: 3px solid rgb(8 101 111);
+   border-bottom: 3px solid #08656f;
    color: #fff;
 }
 .roadmap ul {
@@ -199,6 +199,15 @@ header .menu-btn .menu-btn-burger.open::after {
 .roadmap .p-card-body {
    text-align: left;
    padding: 10px;
+}
+.roadmap .accordion .accordion-item{
+   background: #ffffff29;
+   /* padding: 10px 0px; */
+   color: #fff;
+}
+.roadmap .accordion .accordion-button{
+   background-color: #08656f87; 
+   color: #fff;
 }
 @media (max-width: 995px) {
    header .links {

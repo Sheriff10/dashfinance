@@ -35,7 +35,7 @@ export const Header = () => {
                </div>
                <div className="col">
                   <div className="btn-con">
-                     <a href="https://dashfinancedex.vercel.app/" target={"_blank"} className="btn btn-outline-success">Launch App</a>
+                     <a className="btn btn-outline-success">Launch App</a>
                   </div>
                </div>
             </div>

@@ -1,5 +1,14 @@
 import React from "react";
-import { FaRecycle, FaPercentage, FaUsers, FaSuitcase, FaParachuteBox, FaMoneyBill, FaBurn } from "react-icons/fa";
+import {
+   FaRecycle,
+   FaPercentage,
+   FaUsers,
+   FaSuitcase,
+   FaParachuteBox,
+   FaMoneyBill,
+   FaHandshake,
+   FaChartBar,
+} from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -12,13 +21,14 @@ export const Tokenomincs = () => {
       return { icon, title, percent };
    };
    const tkArr = [
-      tkFunc(<FaRecycle />, "Total Supply", "1M"),
-      tkFunc(<FaPercentage />, "Buy & Sell Tax", "10%"),
-      tkFunc(<FaUsers />, "Team", "2%"),
-      tkFunc(<FaSuitcase />, "Marketing and Development", "5%"),
-      tkFunc(<FaParachuteBox />, "Airdrop", "3%"),
-      tkFunc(<FaMoneyBill />, "Liquidity", "70%"),
-      tkFunc(<FaBurn />, "Burning", "20%"),
+      tkFunc(<FaRecycle />, "Total Supply", "150M"),
+      tkFunc(<FaPercentage />, "Staking and LP Rewards", "5%"),
+      tkFunc(<FaUsers />, "Team", "5%"),
+      tkFunc(<FaHandshake />, "Future Partnerships", "15%"),
+      tkFunc(<FaChartBar />, "Future Fundraising", "5%"),
+      tkFunc(<FaSuitcase />, "Marketing", "4%"),
+      tkFunc(<FaParachuteBox />, "Future Airdrop and Giveaways", "1%"),
+      tkFunc(<FaMoneyBill />, "Liquidity", "45%"),
    ];
    return (
       <div className="partner" id="tk">
@@ -38,24 +48,24 @@ export const Tokenomincs = () => {
                         autoplay={{
                            delay: 2500,
                            disableOnInteraction: false,
-                         }}
+                        }}
                         breakpoints={{
                            960: {
                               slidesPerView: 3,
-                              spaceBetween: 8
-                            },
-                            720: {
+                              spaceBetween: 8,
+                           },
+                           720: {
                               slidesPerView: 3,
-                              spaceBetween: 6
-                            },
-                            540: {
+                              spaceBetween: 6,
+                           },
+                           540: {
                               slidesPerView: 2,
-                              spaceBetween: 4
-                            },
-                            320: {
+                              spaceBetween: 4,
+                           },
+                           320: {
                               slidesPerView: 1,
-                              spaceBetween: 2
-                            },
+                              spaceBetween: 2,
+                           },
                         }}
                         modules={[Pagination, Autoplay]}
                         className="mySwiper"
@@ -71,7 +81,9 @@ export const Tokenomincs = () => {
                                     </div>
                                     <div className="p-card-body">
                                        <span>{i.title}</span>
-                                       <h1><b>{i.percent}</b></h1>
+                                       <h1>
+                                          <b>{i.percent}</b>
+                                       </h1>
                                     </div>
                                  </div>
                               </div>

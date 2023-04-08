@@ -53,11 +53,11 @@ export const About = () => {
                </div>
                <div className="col-lg-6 col-sm-12 col-md-12">
                   <div className="about-img">
-                     <img
+                     {/* <img
                         src="dash.png"
                         alt="global tenchnology"
                         className="img-fluid"
-                     />
+                     /> */}
                   </div>
                </div>
             </div>

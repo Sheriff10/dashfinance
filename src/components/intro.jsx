@@ -56,10 +56,10 @@ export const Intro = () => {
                               <div className="btn-con">
                                  <div className="row justify-content-center">
                                     <div className="btn btn-success m-4 col-4">
-                                       LAUNCHPAD
+                                       DASHPAD
                                     </div>
                                     <div className="btn btn-outline-success m-4 col-4">
-                                       DEX
+                                       DASHDEX
                                     </div>
                                  </div>
                               </div>
