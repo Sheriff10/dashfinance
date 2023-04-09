@@ -43,9 +43,9 @@ export const About = () => {
                         </ul>
                         <div className="container">
                            <div className="row btn-con">
-                              <div className=" btn btn-success col-sm-8 col-md- col-lg-4 abt-btn">
+                              <a href='./dashfinance_whitepaper.pdf' className=" btn btn-success col-sm-8 col-md- col-lg-4 abt-btn" download>
                                  Whitepaper
-                              </div>
+                              </a>
                            </div>
                         </div>
                      </div>

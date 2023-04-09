@@ -21,7 +21,7 @@ export const Tokenomincs = () => {
       return { icon, title, percent };
    };
    const tkArr = [
-      tkFunc(<FaRecycle />, "Total Supply", "150M"),
+      tkFunc(<FaRecycle />, "Total Supply", "150k"),
       tkFunc(<FaPercentage />, "Staking and LP Rewards", "5%"),
       tkFunc(<FaUsers />, "Team", "5%"),
       tkFunc(<FaHandshake />, "Future Partnerships", "15%"),

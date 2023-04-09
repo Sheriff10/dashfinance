@@ -6,7 +6,7 @@ export const Footer = () => {
          <div className="container">
             <div className="row">
                <div className="col">
-                  <a href="https://twitter.com/dash_finance?s=21&t=XPxXw1bYBLxZJXEq0mYpTA">
+                  <a href="https://twitter.com/Dashfinance_?t=MNd8talx_Q4zs3TO4_RVcg&s=09">
                      <span>
                         <FaTwitterSquare />
                      </span>
