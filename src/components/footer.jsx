@@ -11,7 +11,7 @@ export const Footer = () => {
                         <FaTwitterSquare />
                      </span>
                   </a>
-                  <a href="https://t.me/dashfinanceportal">
+                  <a href="https://t.me/dashfinancezk">
                      <span>
                         <FaTelegram />
                      </span>

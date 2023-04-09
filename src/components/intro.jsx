@@ -59,7 +59,7 @@ export const Intro = () => {
                                        DASHPAD
                                     </div>
                                     <div className="btn btn-outline-success m-4 col-4">
-                                       DASHDEX
+                                       DASHSWAP
                                     </div>
                                  </div>
                               </div>
